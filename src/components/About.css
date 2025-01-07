@@ -1,0 +1,20 @@
+/* Container to align text and image inline */
+.aboutContainer {
+  display: flex; /* Use flexbox for horizontal layout */
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Ensure even spacing */
+  gap: 1rem; /* Add spacing between text and image */
+  padding: 1rem; /* Optional: Add padding for better layout */
+}
+
+/* Style for the image */
+.roofPic {
+  width: 40%; /* Set the image to 40% of its original size */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the image scales correctly */
+}
+
+/* Style for the text */
+.aboutText {
+  flex: 1; /* Allow the text to take up remaining space */
+}
