@@ -1,0 +1,30 @@
+h2 {
+  margin: 0; /* Remove default margin */
+  display: inline-block; /* Prevent the h2 from taking full width */
+  font-size: 1.5rem; /* Adjust font size if necessary */
+}
+
+.burgerMenu {
+  height: 1.5rem; /* Match the height to the h2 text size */
+  width: auto; /* Maintain aspect ratio */
+  cursor: pointer; /* Optional: Add a pointer cursor for interactivity */
+}
+
+.navColumns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Optional: Push items apart if needed */
+  /* margin-inline: 15px; */
+}
+
+.navContainer {
+  width: 100%;
+  box-shadow: 0 6px 8px #f3efd0; /* Only at the bottom */
+}
+
+.logo {
+  width: 15%;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Ensure the image scales correctly */
+}

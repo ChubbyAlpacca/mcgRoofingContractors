@@ -1,10 +1,9 @@
 /* Container to align text and image inline */
-.aboutContainer {
-  display: flex; /* Use flexbox for horizontal layout */
-  align-items: center; /* Align items vertically */
-  justify-content: space-between; /* Ensure even spacing */
-  gap: 1rem; /* Add spacing between text and image */
-  padding: 1rem; /* Optional: Add padding for better layout */
+.infoContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: inherit;
+  justify-content: space-between;
 }
 
 /* Style for the image */
@@ -12,6 +11,7 @@
   width: 40%; /* Set the image to 40% of its original size */
   height: auto; /* Maintain aspect ratio */
   object-fit: contain; /* Ensure the image scales correctly */
+  padding-right: 5px;
 }
 
 /* Style for the text */

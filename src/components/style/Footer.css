@@ -1,0 +1,16 @@
+div {
+  display: flex; /* Enable Flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically within the container */
+  position: fixed; /* Fix it to the bottom of the page */
+  bottom: 0; /* Position it at the bottom */
+  width: 100%; /* Ensure it spans the full width */
+  background-color: #fff; /* Optional: Add a background color */
+  padding: 1rem; /* Optional: Add some padding */
+  z-index: 10; /* Ensure it stays above other content */
+}
+
+.logo {
+  max-width: 200px; /* Limit the logo size (adjust as needed) */
+  height: auto; /* Maintain aspect ratio */
+}

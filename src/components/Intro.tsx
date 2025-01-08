@@ -4,7 +4,7 @@ export const Intro = () => {
   return (
     <>
       <h2> PROFESSIONAL</h2>
-      <p>Roofing services you can trust!</p>
+      <h4>Roofing services you can trust!</h4>
       <p>{INTRO_BLOCK}</p>
     </>
   );
