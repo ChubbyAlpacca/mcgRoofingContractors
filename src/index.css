@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: #ffbd00;
-  background-color: maroon;
+  color: rgb(115, 0, 0);
+  background-color: #ffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,8 +13,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-h2 {
-  color: #f3efd0;
+h1 {
+  color: #ffbd00;
+  text-align: center;
 }
 
 body {

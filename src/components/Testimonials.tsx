@@ -21,9 +21,6 @@ export default function Testimonials() {
                 <div className="testimonial-author">
                   <span className="author-details">
                     <span className="author-name">{testimonial.name}</span>
-                    <span className="author-company">
-                      {testimonial.company}
-                    </span>
                   </span>
                 </div>
               </div>

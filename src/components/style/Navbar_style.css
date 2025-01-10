@@ -1,12 +1,13 @@
-h2 {
+h1 {
   margin: 0; /* Remove default margin */
-  display: inline-block; /* Prevent the h2 from taking full width */
+  display: inline-block; /* Prevent the h1 from taking full width */
   font-size: 1.5rem; /* Adjust font size if necessary */
   justify-content: center; /* Center horizontally */
+  color: #ffbd00;
 }
 
 .burgerMenu {
-  height: 1.5rem; /* Match the height to the h2 text size */
+  height: 1.5rem; /* Match the height to the h1 text size */
   width: auto; /* Maintain aspect ratio */
   cursor: pointer; /* Optional: Add a pointer cursor for interactivity */
   padding-right: 10px;
@@ -23,10 +24,12 @@ h2 {
 .navContainer {
   width: 100%;
   box-shadow: 0 6px 8px #f3efd0; /* Only at the bottom */
+  background-color: maroon;
 }
 
 .logo {
   width: 10%;
   height: auto; /* Maintain aspect ratio */
   object-fit: contain; /* Ensure the image scales correctly */
+  color: #f3efd0;
 }

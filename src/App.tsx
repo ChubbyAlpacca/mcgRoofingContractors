@@ -16,16 +16,6 @@ function App() {
       <About />
       <Testimonials />
       <ContactMe />
-      {/* <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSfuC4Zq0EcUfTc8lUfjJXCa-zBn0IR10sa2BhUhCh1kih2puQ/viewform?embedded=true"
-        width="640"
-        height="1011"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-      >
-        Loading…
-      </iframe> */}
       <Footer />
     </>
   );

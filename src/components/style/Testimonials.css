@@ -14,7 +14,7 @@
 .testimonials-title {
   font-size: 2rem;
   font-weight: 500;
-  color: #f56565;
+  color: rgb(155, 0, 10);
   margin-bottom: 48px;
 }
 
@@ -27,8 +27,11 @@
 
 .testimonials-grid {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin: 16px;
+  justify-content: space-around;
+  align-items: center;
+  margin-inline: 15px;
 }
 
 .testimonial-card {
@@ -38,7 +41,7 @@
 }
 
 .testimonial-content {
-  background-color: rgba(55, 65, 81, 0.4); /* Tailwind's gray-800 equivalent */
+  background-color: rgb(243, 239, 208); /* Tailwind's gray-800 equivalent */
   padding: 32px;
   border-radius: 8px;
 }

@@ -7,8 +7,8 @@ export const Navbar = () => {
     <div className="navContainer">
       <div className="navColumns">
         <img src={reversedLogo} className="logo" alt="logo" />
-        <h2>McG Roofing Contractors</h2>
-        <MenuIcon className="burgerMenu" />
+        <h1>McG Roofing Contractors</h1>
+        <MenuIcon className="burgerMenu" style={{ color: "yellow" }} />
       </div>
     </div>
   );
