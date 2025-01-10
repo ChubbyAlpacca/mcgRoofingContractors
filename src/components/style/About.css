@@ -1,20 +1,20 @@
-/* Container to align text and image inline */
 .infoContainer {
   display: flex;
   align-items: center;
   flex-wrap: inherit;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /* Style for the image */
 .roofPic {
-  width: 40%; /* Set the image to 40% of its original size */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: contain; /* Ensure the image scales correctly */
+  width: 20%;
+  height: auto;
+  object-fit: contain;
   padding-right: 5px;
+  border-radius: 25px;
+  padding: 10px;
 }
 
-/* Style for the text */
-.aboutText {
-  flex: 1; /* Allow the text to take up remaining space */
+p {
+  padding: 10px;
 }

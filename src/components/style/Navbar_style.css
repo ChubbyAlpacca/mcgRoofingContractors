@@ -2,12 +2,14 @@ h2 {
   margin: 0; /* Remove default margin */
   display: inline-block; /* Prevent the h2 from taking full width */
   font-size: 1.5rem; /* Adjust font size if necessary */
+  justify-content: center; /* Center horizontally */
 }
 
 .burgerMenu {
   height: 1.5rem; /* Match the height to the h2 text size */
   width: auto; /* Maintain aspect ratio */
   cursor: pointer; /* Optional: Add a pointer cursor for interactivity */
+  padding-right: 10px;
 }
 
 .navColumns {
@@ -15,7 +17,7 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between; /* Optional: Push items apart if needed */
-  /* margin-inline: 15px; */
+  margin-inline: 15px;
 }
 
 .navContainer {
@@ -24,7 +26,7 @@ h2 {
 }
 
 .logo {
-  width: 15%;
+  width: 10%;
   height: auto; /* Maintain aspect ratio */
   object-fit: contain; /* Ensure the image scales correctly */
 }

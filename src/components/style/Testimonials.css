@@ -1,0 +1,84 @@
+.testimonials-container {
+  padding: 10px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.users-icon {
+  width: 40px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.testimonials-title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #f56565;
+  margin-bottom: 48px;
+}
+
+.testimonials-description {
+  max-width: 66%;
+  margin: 0 auto;
+  line-height: 1.75;
+  font-size: 1rem;
+}
+
+.testimonials-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 16px;
+}
+
+.testimonial-card {
+  padding: 16px;
+  width: 100%;
+  max-width: 50%;
+}
+
+.testimonial-content {
+  background-color: rgba(55, 65, 81, 0.4); /* Tailwind's gray-800 equivalent */
+  padding: 32px;
+  border-radius: 8px;
+}
+
+.terminal-icon {
+  width: 32px;
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+.testimonial-quote {
+  line-height: 1.75;
+  margin-bottom: 24px;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+}
+
+.author-image {
+  width: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-details {
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.author-name {
+  font-weight: 500;
+  color: white;
+}
+
+.author-company {
+  color: #6b7280;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
